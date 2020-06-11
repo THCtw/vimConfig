@@ -1,2 +1,2 @@
-# Show line numbers
+" Show line numbers
 set number
