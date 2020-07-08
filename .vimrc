@@ -1,17 +1,26 @@
+" Vim-plug
+call plug#begin('~/.vim/plugged')
+
+" Theme
+Plug 'jcherven/jummidark.vim'
+
+call plug#end()
+
 " Basic settings
 	
 	" Mapping
 
-	" Show line number
-	set number
+	set number " Show line number
 
 	" Set tab indent
 	set tabstop=4	" Set indent to 4 spaces
+	set shiftwidth=4
+	set expandtab
 	set autoindent	" Set auto indent
 	
 	" Syntax highlighting
 	syntax on
-
+    colorscheme molokai
 
 " NERDTree
 
