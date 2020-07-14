@@ -8,18 +8,18 @@ call plug#end()
 
 " Basic settings
 	
-	" Mapping
+    " Mapping
 
-	set number " Show line number
+    set number " Show line number
 
-	" Set tab indent
-	set tabstop=4	" Set indent to 4 spaces
-	set shiftwidth=4
-	set expandtab
-	set autoindent	" Set auto indent
+    " Set tab indent
+    set tabstop=4	" Set indent to 4 spaces
+    set shiftwidth=4
+    set expandtab
+    set autoindent	" Set auto indent
 	
-	" Syntax highlighting
-	syntax on
+    " Syntax highlighting
+    syntax on
     colorscheme molokai
 
 " NERDTree
