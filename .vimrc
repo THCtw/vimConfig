@@ -1,10 +1,10 @@
 " Vim-plug
-call plug#begin('~/.vim/plugged')
+"call plug#begin('~/.vim/plugged')
 
 " Theme
-Plug 'jcherven/jummidark.vim'
+"Plug 'jcherven/jummidark.vim'
 
-call plug#end()
+"call plug#end()
 
 " Basic settings
 	
@@ -20,7 +20,6 @@ call plug#end()
 	
     " Syntax highlighting
     syntax on
-    colorscheme molokai
 
 " NERDTree
 
